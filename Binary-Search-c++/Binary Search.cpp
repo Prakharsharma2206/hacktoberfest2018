@@ -1,9 +1,11 @@
 #include<bits/stdc++.h>
 using namespace std;
 //funtion for implementing binary search
+//this is onnn
 int binarySearch(int *input,int beg,int end,int number){
     if(beg>end){
         return -1;
+        
     }
     int mid = (beg+end)/2;
     if(number == input[mid]){
@@ -17,8 +19,9 @@ int binarySearch(int *input,int beg,int end,int number){
     else{
         return binarySearch(input,beg,mid-1,number);
     }
-    
+    ///exit the block
     return -1;
+    
 }
 //main funtion for calling and control
 int main(){
