@@ -20,3 +20,11 @@ body {
     border-width: 3px 3px 0 0;
     transform: rotate(45deg);
 }
+.arrow-2 {
+    z-index: 1;
+    height: 30px;
+    width: 30px;
+    border: 3px solid pink;
+    border-width: 4px 1px 0 0;
+    transform: rotate(55deg);
+}
